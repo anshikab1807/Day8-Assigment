@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   let student = {
+  name: "Anshika Bhadauria",
+  age: 19,
+  grade: "A",
+  subjects: ["Math", "Science"]
+};
+
+function addSubject(subject) {
+  student.subjects.push(subject);
+}
+
+function updateGrade(newGrade) {
+  student.grade = newGrade;
+}
+
+function displayStudentInfo() {
+  console.log("Student Info:", student);
+}
+
+// Example usage:
+addSubject("English");
+updateGrade("A+");
+displayStudentInfo();
+
+</script>
+</body>
+</html>
